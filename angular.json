@@ -61,9 +61,11 @@
           "configurations": {
             "production": {
               "browserTarget": "myNewApp-StudentX:build:production"
-            },
+	      "port": 5300
+	    },
             "development": {
               "browserTarget": "myNewApp-StudentX:build:development"
+	      "port": 5300
             }
           },
           "defaultConfiguration": "development"
